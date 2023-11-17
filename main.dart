@@ -47,6 +47,12 @@ class _QuizAppState extends State<QuizApp> {
  if(quizBank.isFinished()==true){
     Alert(context:context,
     title: 'Finished',desc: 'you are completed sucessfully').show();
+   TrueOrFalse = [
+    SizedBox(
+      height: 20,
+      width: 30,
+    )
+  ];
     }
     else{
       bool result = quizBank.getAnswer();
